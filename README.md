@@ -14,3 +14,5 @@ No entanto, ao tentar dividir o grid em blocos e threads, usando Raw Kernel do c
 Mantive o teste em Raw Kernel para que, em uma correção futura, seja possível identificar o erro.
 
 Também foi testada a biblioteca Numba para esse processo de paralelização, que funcionou conforme o esperado, trazendo pontos de centróide muito próximos à posição real da estrela em um tempo esperado.
+
+*Obs: para fazer com que o código funcione, deverá colocar o arquivo profile.mat junto a pasta. Pois as imagens são simuladas considerando um perfil de sódio.*
